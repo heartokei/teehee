@@ -1,0 +1,62 @@
+* 
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: repeating-linear-gradient(90deg, #FF90AC, #FF90AC 100px, #EF6285 100px, #EF6285 200px);
+}
+#Top{
+    position: relative;
+    top: -60px;
+    
+}
+#FG{
+    background-color:#fafbf6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 30px;
+}
+h1{
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Yes{
+    background: rgb(130, 207, 179);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 15px 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+#Yes:hover{
+    background: rgb(211, 249, 235);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(130, 207, 179);
+    border: none;
+    font-size: 16px;
+    padding: 15px 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+#No{
+    background: rgb(255, 66, 98);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border: none;
+    font-size: 10px;
+    padding: 20px 60px;
+    border-radius: 30px;
+}
+#No:hover{
+    background:rgb(255, 137, 157);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 66, 98);
+    border: none;
+    font-size: 10px;
+    padding: 20px 60px;
+    border-radius: 30px;
+}
